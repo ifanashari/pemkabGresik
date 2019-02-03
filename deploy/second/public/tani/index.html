@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tani</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Asap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- =============|=|Search pop up|=|============= -->
+    <div class="pop-search" id="main-pop">
+      <div class="content">
+        <input type="text" autofocus />
+        <button class="btn-c"><img src="svg/search.svg" alt="" /></button>
+      </div>
+      <button class="btn-c mt-3" id="cancel">Cancel</button>
+    </div>
+    <!-- =============|=|Search pop up|=|============= -->
+
+    <!-- =============|=|Navigation|=|============= -->
+    <div class="nav-fix wow animated fadeInDown">
+      <div class="container">
+        <div class="brand"><img src="svg/logo.svg" alt="" /></div>
+
+        <div class="search">
+          <input type="text" placeholder="search" /><img
+            src="svg/search.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="menu"><img src="svg/menu.svg" alt="" /></div>
+
+        <div class="content" id="hide-nav">
+          <ul>
+            <li>
+              <div class="title">
+                PERANGKAT DAERAH <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li>
+                  <div class="title">
+                    PROFIL PIMPINAN <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> BUPATI </a></li>
+                    <li><a href=""> WAKIL BUPATI </a></li>
+                    <li><a href=""> SEKRETARIS DAERAH </a></li>
+                    <li>
+                      <div class="title">
+                        ASISTEN SEKRETARIS DAERAH
+                        <img src="svg/arrow-down.svg" alt="" />
+                      </div>
+                      <ul class="sub-menu">
+                        <li><a href=""> ASISTEN I </a></li>
+                        <li><a href=""> ASISTEN II </a></li>
+                        <li><a href=""> ASISTEN III </a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    PROFILE OPD <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> INSPEKTORAT </a></li>
+                    <li><a href=""> SEKRETARIAT DEWAN </a></li>
+                    <li>
+                      <div class="title">
+                        SEKRETARIAT DAERAH
+                        <img src="svg/arrow-down.svg" alt="" />
+                      </div>
+                      <ul class="sub-menu">
+                        <li><a href=""> BAGIAN HUKUM </a></li>
+                        <li><a href=""> BAGIAN HUMAS DAN PROTOKOL </a></li>
+                        <li><a href=""> BAGIAN KESEJAHTERAAN RAKYAT </a></li>
+                        <li><a href=""> BAGIAN KEUANGAN </a></li>
+                        <li>
+                          <a href=""> BAGIAN LAYANAN PENGADAAN BARANG/JASA </a>
+                        </li>
+                        <li><a href=""> BAGIAN PROGRAM PEMBANGUNAN </a></li>
+                        <li><a href=""> BAGIAN PEMERINTAHAN </a></li>
+                        <li><a href=""> BAGIAN PEREKONOMIAN DAN SDA </a></li>
+                        <li><a href=""> BAGIAN ORTALA </a></li>
+                        <li><a href=""> BAGIAN UMUM </a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="title">
+                        DINAS <img src="svg/arrow-down.svg" alt="" />
+                      </div>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href=""> DINAS KB,PP DAN PERLINDUNGAN ANAK </a>
+                        </li>
+                        <li>
+                          <a href=""> DINAS KOMUNIKASI DAN INFORMATIKA </a>
+                        </li>
+                        <li><a href=""> DINAS KEPENDUDUKAN DAN CAPIL </a></li>
+                        <li><a href=""> DINAS KEPEMUDAAN DAN OLAHRAGA </a></li>
+                        <li><a href=""> DINAS KESEHATAN </a></li>
+                        <li>
+                          <a href="">
+                            DINAS KOPERASI, USAHA MIKRO DAN PERINDAG
+                          </a>
+                        </li>
+                        <li><a href=""> DINAS LINGKUNGAN HIDUP </a></li>
+                        <li>
+                          <a href=""> DINAS PARIWISATA DAN KEBUDAYAAN </a>
+                        </li>
+                        <li><a href=""> DINAS PENDIDIKAN </a></li>
+                        <li><a href=""> DINAS PENANAMAN MODAL DAN PTSP </a></li>
+                        <li><a href=""> DINAS PERIKANAN </a></li>
+                        <li><a href=""> DINAS PERTANAHAN </a></li>
+                        <li>
+                          <a href=""> DINAS PERPUSTAKAAN DAN KEARSIPAN </a>
+                        </li>
+                        <li><a href=""> DINAS PERHUBUNGAN </a></li>
+                        <li>
+                          <a href=""> DINAS PEKERJAAN UMUM DAN TATA RUANG </a>
+                        </li>
+                        <li>
+                          <a href=""> DINAS PERUMAHAN DAN KAWASAN PEMUKIMAN </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            DINAS PEMBERDAYAAN MASYARAKAT DAN DESA
+                          </a>
+                        </li>
+                        <li><a href=""> DINAS PERTANIAN </a></li>
+                        <li><a href=""> DINAS SATPOL PP </a></li>
+                        <li><a href=""> DINAS SOSIAL </a></li>
+                        <li><a href=""> DINAS TENAGA KERJA </a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="title">
+                        KANTOR <img src="svg/arrow-down.svg" alt="" />
+                      </div>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href=""> KANTOR KESATUAN BANGSA DAN POLITIK </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="title">
+                        KECAMATAN <img src="svg/arrow-down.svg" alt="" />
+                      </div>
+                      <ul class="sub-menu">
+                        <li><a href=""> KEC. BALONGPANGGANG </a></li>
+                        <li><a href=""> KEC. BENJENG </a></li>
+                        <li><a href=""> KEC. BUNGAH </a></li>
+                        <li><a href=""> KEC. CERME </a></li>
+                        <li><a href=""> KEC. DRIYOREJO </a></li>
+                        <li><a href=""> KEC. DUDUKSAMPEYAN </a></li>
+                        <li><a href=""> KEC. DUKUN </a></li>
+                        <li><a href=""> KEC. GRESIK </a></li>
+                        <li><a href=""> KEC. KEBOMAS </a></li>
+                        <li><a href=""> KEC. KEDAMEAN </a></li>
+                        <li><a href=""> KEC. MANYAR </a></li>
+                        <li><a href=""> KEC. MENGANTI </a></li>
+                        <li><a href=""> KEC. PANCENG </a></li>
+                        <li><a href=""> KEC. SANGKAPURA </a></li>
+                        <li><a href=""> KEC. SIDAYU </a></li>
+                        <li><a href=""> KEC. TAMBAK </a></li>
+                        <li><a href=""> KEC. UJUNGPANGKAH </a></li>
+                        <li><a href=""> KEC. WRINGINANOM </a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="title">
+                SIDESA <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li><a href=""> KEC. BALONGPANGGANG </a></li>
+                <li><a href=""> KEC. BENJENG </a></li>
+                <li><a href=""> KEC. BUNGAH </a></li>
+                <li><a href=""> KEC. CERME </a></li>
+                <li><a href=""> KEC. DRIYOREJO </a></li>
+                <li><a href=""> KEC. DUDUKSAMPEYAN </a></li>
+                <li><a href=""> KEC. DUKUN </a></li>
+                <li><a href=""> KEC. GRESIK </a></li>
+                <li><a href=""> KEC. KEBOMAS </a></li>
+                <li><a href=""> KEC. KEDAMEAN </a></li>
+                <li><a href=""> KEC. MANYAR </a></li>
+                <li><a href=""> KEC. MENGANTI </a></li>
+                <li><a href=""> KEC. PANCENG </a></li>
+                <li><a href=""> KEC. SANGKAPURA </a></li>
+                <li><a href=""> KEC. SIDAYU </a></li>
+                <li><a href=""> KEC. TAMBAK </a></li>
+                <li><a href=""> KEC. UJUNGPANGKAH </a></li>
+                <li><a href=""> KEC. WRINGINANOM </a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="title">
+                PROFIL DAERAH <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li><a href=""> SEJARAH </a></li>
+                <li><a href=""> GEOGRAFI </a></li>
+                <li><a href=""> DEMOGRAFI </a></li>
+                <li><a href=""> VISI MISI </a></li>
+                <li><a href=""> LAMBANG DAN MOTO </a></li>
+                <li><a href=""> APBD </a></li>
+                <li><a href=""> PERTUMBUHAN EKONOMI </a></li>
+                <li><a href=""> CAPAIAN PROGRAM </a></li>
+                <li><a href=""> PENGHARGAAN </a></li>
+                <li><a href=""> GRESIK DALAM ANGKA </a></li>
+                <li>
+                  <div class="title">
+                    KECAMATAN DALAM ANGKA
+                    <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> KEC. BALONGPANGGANG </a></li>
+                    <li><a href=""> KEC. BENJENG </a></li>
+                    <li><a href=""> KEC. BUNGAH </a></li>
+                    <li><a href=""> KEC. CERME </a></li>
+                    <li><a href=""> KEC. DRIYOREJO </a></li>
+                    <li><a href=""> KEC. DUDUKSAMPEYAN </a></li>
+                    <li><a href=""> KEC. DUKUN </a></li>
+                    <li><a href=""> KEC. GRESIK </a></li>
+                    <li><a href=""> KEC. KEBOMAS </a></li>
+                    <li><a href=""> KEC. KEDAMEAN </a></li>
+                    <li><a href=""> KEC. MANYAR </a></li>
+                    <li><a href=""> KEC. MENGANTI </a></li>
+                    <li><a href=""> KEC. PANCENG </a></li>
+                    <li><a href=""> KEC. SANGKAPURA </a></li>
+                    <li><a href=""> KEC. SIDAYU </a></li>
+                    <li><a href=""> KEC. TAMBAK </a></li>
+                    <li><a href=""> KEC. UJUNGPANGKAH </a></li>
+                    <li><a href=""> KEC. WRINGINANOM </a></li>
+                  </ul>
+                </li>
+
+                <li><a href=""> INDEKS PEMBANGUNAN MANUSIA </a></li>
+                <li>
+                  <a href=""> DATA TERPADU PROGRAM PENANGANAN FAKIR MISKIN </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <div class="title">
+                SAKIP <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li><a href=""> PEMERINTAH KAB. GRESIK </a></li>
+                <li><a href=""> SEKRETARIS DAERAH </a></li>
+                <li><a href=""> INSPEKTORAT </a></li>
+                <li><a href=""> SEKRETARIAT DEWAN </a></li>
+                <li>
+                  <div class="title">
+                    BADAN <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> BAPPEDA </a></li>
+                    <li><a href=""> BPPKAD </a></li>
+                    <li><a href=""> BPBD </a></li>
+                    <li><a href=""> BKD </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    DINAS <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> DINAS KBPPA </a></li>
+                    <li>
+                      <a href=""> DINAS KEPENDUDUKAN DAN CATATAN SIPIL </a>
+                    </li>
+                    <li><a href=""> DINAS KESEHATAN </a></li>
+                    <li>
+                      <a href=""> DINAS KOPERASI, USAHA MIKRO DAN PERINDAG </a>
+                    </li>
+                    <li><a href=""> DINAS KOMUNIKASI DAN INFORMATIKA </a></li>
+                    <li><a href=""> DINAS LINGKUNGAN HIDUP </a></li>
+                    <li><a href=""> DINAS PARIWISATA DAN KEBUDAYAAN </a></li>
+                    <li><a href=""> DINAS KEPEMUDAAN DAN OLAHRAGA </a></li>
+                    <li><a href=""> DINAS PENDIDIKAN </a></li>
+                    <li><a href=""> DINAS PENANAMAN MODAL DAN PTSP </a></li>
+                    <li><a href=""> DINAS PERHUBUNGAN </a></li>
+                    <li><a href=""> DINAS PERIKANAN </a></li>
+                    <li><a href=""> DINAS PERPUSTAKAAN DAN KEARSIPAN </a></li>
+                    <li><a href=""> DINAS PERTANAHAN </a></li>
+                    <li><a href=""> DINAS PERTANIAN </a></li>
+                    <li>
+                      <a href=""> DINAS PERUMAHAN DAN KAWASAN PERMUKIMAN </a>
+                    </li>
+                    <li><a href=""> DINAS PU </a></li>
+                    <li>
+                      <a href=""> DINAS PEMBERDAYAAN MASYARAKAT DAN DESA </a>
+                    </li>
+                    <li><a href=""> DINAS SATPOL PP </a></li>
+                    <li><a href=""> DINAS SOSIAL </a></li>
+                    <li><a href=""> DINAS TENAGA KERJA </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    KANTOR <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> KANTOR KESATUAN BANGSA DAN POLITIK </a></li>
+                  </ul>
+                </li>
+                <li><a href=""> PEMERINTAH KAB. GRESIK </a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="title">
+                INFO KOTA <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li>
+                  <div class="title">
+                    TELPON PENTING <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> POLISI </a></li>
+                    <li><a href=""> KODIM DAN KORAMIL </a></li>
+                    <li><a href=""> KEJAKSAAN NEGERI </a></li>
+                    <li><a href=""> PENGADILAN NEGERI </a></li>
+                    <li><a href=""> PENGADILAN AGAMA GRESIK </a></li>
+                    <li><a href=""> KANTOR URUSAN AGAMA </a></li>
+                    <li><a href=""> TELPON LAINNYA </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    TELPON PENTING <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href=""> JADWAL BUS DAMRI (JUANDA TERMINAL BUNDER) </a>
+                    </li>
+                    <li><a href=""> JADWAL KAPAL KE BAWEAN </a></li>
+                    <li><a href=""> JADWAL PESAWAT KE BAWEAN </a></li>
+                    <li><a href=""> DAFTAR ANGKUTAN UMUM </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    DAFTAR LAYANAN KESEHATAN
+                    <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> RUMAH SAKIT </a></li>
+                    <li><a href=""> PUSKESMAS </a></li>
+                    <li><a href=""> KLINIK HEWAN </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    DAFTAR TEMPAT BERIBADAH
+                    <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> MASJID </a></li>
+                    <li><a href=""> GEREJA </a></li>
+                    <li><a href=""> PURA/WIHARA </a></li>
+                  </ul>
+                </li>
+                <li><a href=""> DAFTAR RESTORAN </a></li>
+                <li><a href=""> DATA INVENTARISASI TOKO MODERN </a></li>
+                <li><a href=""> HOTEL & PENGINAPAN </a></li>
+                <li><a href=""> MUSEUM SUNAN GIRI </a></li>
+                <li><a href=""> AREA FREE HOTSPOT </a></li>
+                <li><a href=""> HARGA BAHAN POKOK </a></li>
+                <li><a href=""> TELECENTER JOKO SAMUDRO </a></li>
+                <li><a href=""> UKM </a></li>
+                <li><a href=""> CCTV </a></li>
+                <li><a href=""> JUMLAH PENGUNJUNG </a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="title">
+                BUMD <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li><a href=""> PDAM </a></li>
+                <li><a href=""> RSUD IBNU SINA </a></li>
+                <li><a href=""> BPR GRESIK </a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="title">
+                GALERI <img src="svg/arrow-down.svg" alt="" />
+              </div>
+              <ul class="sub-menu">
+                <li>
+                  <div class="title">
+                    BUPATI DAN WAKIL BUPATI GRESIK
+                    <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> FOTO RESMI </a></li>
+                    <li><a href=""> FOTO KEGIATAN </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="title">
+                    EKS BUPATI GRESIK
+
+                    <img src="svg/arrow-down.svg" alt="" />
+                  </div>
+                  <ul class="sub-menu">
+                    <li><a href=""> BUPATI GRESIK </a></li>
+                    <li><a href=""> WAKIL BUPATI GRESIK </a></li>
+                  </ul>
+                </li>
+                <li><a href=""> MONUMENTAL </a></li>
+              </ul>
+            </li>
+            <li id="main-search"><img src="svg/search.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- =============|=|Navigation|=|============= -->
+
+    <!-- =============|=|Hero|=|============= -->
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
+            <img src="svg/hari-tani.svg" alt="" />
+            <div class="text">
+              “Soal pangan adalah soal hidup matinya bangsa”
+            </div>
+            <div class="sub-text">— Ir. Soekarno</div>
+          </div>
+        </div>
+      </div>
+      <a href="#drop">
+        <div class="dropper">
+          <div class="d-text">Scroll kebawah untuk melanjutkan</div>
+          <div class="icon"><img src="svg/arrow.svg" alt="" /></div>
+        </div>
+      </a>
+    </div>
+    <!-- =============|=|Hero|=|============= -->
+
+    <!-- =============|=|Top|=|============= -->
+    <div class="container">
+      <!-- =============|=|Lower menu|=|============= -->
+      <div class="lower-menu wow animated fadeInUp">
+        <div class="text-center"><img src="svg/rice-light.svg" alt="" /></div>
+        <div class="content">
+          <ul>
+            <li><a href=""> SITOPO </a></li>
+            <li><a href=""> SIBAPO </a></li>
+            <li><a href=""> e-Planning </a></li>
+            <li><a href=""> GSW </a></li>
+            <li><a href=""> Perijinan </a></li>
+            <li><a href=""> LPSE </a></li>
+            <li><a href=""> Disclaimer </a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- =============|=|Lower menu|=|============= -->
+
+      <!-- =============|=|Upper Slide|=|============= -->
+      <div class="slide mb-5 wow animated fadeIn" id="drop">
+        <div id="upper-slide" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#upper-slide"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#upper-slide" data-slide-to="1"></li>
+            <li data-target="#upper-slide" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="item">
+                <img src="img/slide1.png" alt="First slide" />
+              </div>
+            </div>
+          </div>
+          <a
+            class="slide-control carousel-control-prev"
+            href="#upper-slide"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="slide-control carousel-control-next"
+            href="#upper-slide"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="content">
+          <div class="text">
+            Menteri Pertanian Republik Indonesia Amran Sulaiman meresmikan
+            beroperasinya Taman Teknologi Pertanian (TTP) Plus
+          </div>
+        </div>
+      </div>
+      <!-- =============|=|Upper Slide|=|============= -->
+
+      <!-- =============|=|Service|=|============= -->
+      <div class="service mb-5">
+        <div class="row">
+          <div class="col-md-4 col-6 my-3">
+            <div class="service-item wow animated fadeInUp">
+              <div class="text">PARIWISATA</div>
+              <img src="img/pariwisata.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 my-3">
+            <div
+              class="service-item wow animated fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div class="text">ANGGARAN</div>
+              <img src="img/anggaran.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 my-3">
+            <div
+              class="service-item wow animated fadeInUp"
+              data-wow-delay="0.4"
+            >
+              <div class="text">INDUSTRI</div>
+              <img src="img/industri.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 my-3">
+            <div class="service-item wow animated fadeInUp">
+              <div class="text">PENDIDIKAN</div>
+              <img src="img/pendidikan.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 my-3">
+            <div
+              class="service-item wow animated fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div class="text">KESEHATAN</div>
+              <img src="img/kesehatan.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 my-3">
+            <div
+              class="service-item wow animated fadeInUp"
+              data-wow-delay="0.4s"
+            >
+              <div class="text">VIDEO</div>
+              <img src="img/video.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============|=|Service|=|============= -->
+    </div>
+    <!-- =============|=|Top|=|============= -->
+
+    <!-- =============|=|Theme|=|============= -->
+    <div class="theme mb-5 wow animated fadeInLeft">
+      <div class="theme-container">
+        <div class="item"><img src="svg/word.svg" alt="" /></div>
+        <div class="item" id="last"><img src="img/theme.png" alt="" /></div>
+      </div>
+    </div>
+    <!-- =============|=|Theme|=|============= -->
+
+    <!-- =============|=|Mid|=|============= -->
+    <div class="container">
+      <!-- =============|=|News|=|============= -->
+      <div class="news mb-5">
+        <div class="mb-3 c-s-header">
+          <img src="svg/rice-dark.svg" class="mr-3" alt="" />Berita Terbaru
+        </div>
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <div class="news-item  wow animated fadeInUp">
+              <div class="media"><img src="img/slide1.png" alt="" /></div>
+              <div class="text my-3">
+                Pelantikan Andhy Hendro Wijaya sebagai Sekda Gresik diiringi
+                Sholawat Burdah
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="news-item  wow animated fadeInUp" data-wow-delay="0.2s">
+              <div class="media"><img src="img/slide1.png" alt="" /></div>
+              <div class="text my-3">
+                Pelantikan Andhy Hendro Wijaya sebagai Sekda Gresik diiringi
+                Sholawat Burdah
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-3">
+            <div class="an  wow animated fadeInUp" data-wow-delay="0.4s">
+              <div class="text">
+                Pantau dan ikuti berita terbaru seputar kegiatan pemerintahan
+                Kabupaten Gresik
+              </div>
+              <div><button class="btn-c">Lihat Semua</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============|=|News|=|============= -->
+    </div>
+    <!-- =============|=|Mid|=|============= -->
+
+    <!-- =============|=|Explore|=|============= -->
+    <div class="explore mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 wow animated fadeInUp">
+            <div class="c-s-header mb-3">
+              <img src="svg/rice-dark.svg" class="mr-3" alt="" />Explore Gresik
+            </div>
+            <div class="player">
+              <iframe
+                src="https://www.youtube.com/embed/vCqw7jytH9k"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div
+            class="col-md-5 content-container wow animated fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="c-s-header mb-3">
+              <img src="svg/rice-dark.svg" class="mr-3" alt="" />Pengumuman
+            </div>
+            <div class="content">
+              <div class="item">PENGUMUMAN HASIL AKHIR CPNS TAHUN 2018</div>
+              <div class="item">PENGUMUMAN HASIL AKHIR CPNS TAHUN 2018</div>
+              <div class="item">PENGUMUMAN HASIL AKHIR CPNS TAHUN 2018</div>
+              <!-- <button class="custom">Lihat Semua Pengumuman</button> -->
+              <button class="btn-c">Lihat Semua Pengumuman</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =============|=|Explore|=|============= -->
+
+    <!-- =============|=|Bottom|=|============= -->
+    <div class="container">
+      <!-- =============|=|Event|=|============= -->
+      <div class="event mb-5 wow animated fadeInUp">
+        <div class="upper mb-5">
+          <div class="c-s-header">
+            <img src="svg/rice-dark.svg" class="mr-3" alt="" />Event
+          </div>
+          <button class="ml-auto btn-c">Lihat Semua Event</button>
+        </div>
+
+        <div class="lower">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="event-item">
+                <div class="left">
+                  <div class="date"><span>13</span></div>
+                  <div class="mounth">
+                    Nopember <br />
+                    2018
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="title">
+                    Peninjauan Pembangunan Embong Sukodono yang akan diresmikan
+                    oleh Presiden RI
+                  </div>
+                  <div class="content my-3">
+                    <div class="icon">
+                      <img src="svg/clock.svg" alt="" /> <img src="" alt="" />
+                      <img src="svg/marker.svg" alt="" /> <img src="" alt="" />
+                    </div>
+                    <div class="text">
+                      <div class="">09.30 WIB</div>
+                      <div class="">
+                        Gedung Putri Mijil Kabupaten Gresik (Materi), Halaman
+                        Gejos (Praktek Lapangan) dan Lapangan Tenis Giri Krida
+                        Gresik (Praktek Lapangan).
+                      </div>
+                    </div>
+                  </div>
+                  <button class="">
+                    Lihat Detail<img class="ml-1" src="svg/right.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="event-item">
+                <div class="left">
+                  <div class="date"><span>13</span></div>
+                  <div class="mounth">
+                    Nopember <br />
+                    2018
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="title">
+                    Peninjauan Pembangunan Embong Sukodono yang akan diresmikan
+                    oleh Presiden RI
+                  </div>
+                  <div class="content my-3">
+                    <div class="icon">
+                      <img src="svg/clock.svg" alt="" /> <img src="" alt="" />
+                      <img src="svg/marker.svg" alt="" /> <img src="" alt="" />
+                    </div>
+                    <div class="text">
+                      <div class="">09.30 WIB</div>
+                      <div class="">
+                        Gedung Putri Mijil Kabupaten Gresik (Materi), Halaman
+                        Gejos (Praktek Lapangan) dan Lapangan Tenis Giri Krida
+                        Gresik (Praktek Lapangan).
+                      </div>
+                    </div>
+                  </div>
+                  <button class="">
+                    Lihat Detail<img class="ml-1" src="svg/right.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="event-item">
+                <div class="left">
+                  <div class="date"><span>13</span></div>
+                  <div class="mounth">
+                    Nopember <br />
+                    2018
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="title">
+                    Peninjauan Pembangunan Embong Sukodono yang akan diresmikan
+                    oleh Presiden RI
+                  </div>
+                  <div class="content my-3">
+                    <div class="icon">
+                      <img src="svg/clock.svg" alt="" /> <img src="" alt="" />
+                      <img src="svg/marker.svg" alt="" /> <img src="" alt="" />
+                    </div>
+                    <div class="text">
+                      <div class="">09.30 WIB</div>
+                      <div class="">
+                        Gedung Putri Mijil Kabupaten Gresik (Materi), Halaman
+                        Gejos (Praktek Lapangan) dan Lapangan Tenis Giri Krida
+                        Gresik (Praktek Lapangan).
+                      </div>
+                    </div>
+                  </div>
+                  <button class="">
+                    Lihat Detail<img class="ml-1" src="svg/right.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============|=|Event|=|============= -->
+    </div>
+    <!-- =============|=|Bottom|=|============= -->
+
+    <!-- =============|=|Footer|=|============= -->
+    <div class="footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3 col-6 my-2">
+            <div class="title">Website OPD</div>
+            Inspektorat <br />
+            DPM Dan PTSP <br />
+            Dinas Pertanian <br />
+            Sekretariat Dewan <br />
+            Produk Hukum <br />
+            DKB Dan PP <br />
+            Dinas Parbud <br />
+          </div>
+          <div class="col-md-3 col-6 my-2">
+            <div class="title"></div>
+            Dinas Parbud <br />
+            Dispendukcapil <br />
+            Diskominfo <br />
+            PDAM <br />
+            BPPKAD <br />
+            Dispendik <br />
+            RSUD Ibnu Sina <br />
+          </div>
+          <div class="col-md-3 col-6 my-2">
+            <div class="title"></div>
+            PPID <br />
+            Disnaker <br />
+            BKD <br />
+            Dinkes <br />
+            DPUTR <br />
+            Bappeda <br />
+            Dishub <br />
+            Dinas Perpustakaan dan Kearsipan <br />
+          </div>
+          <div class="col-md-3 col-6 my-2">
+            <div class="title">Website Kecamatan</div>
+            Kecamatan Kebomas <br />
+            Kecamatan Bungah <br />
+            Kecamatan Benjeng <br />
+            Kecamatan Sangkapura <br />
+            Desa Randuagung <br />
+            Desa Sukorejo <br />
+            Desa Doudo <br />
+            Desa Munggugianti <br />
+            Desa Sekapuk <br />
+          </div>
+          <div class="col-md-3 col-6 my-2" id="other">
+            <div class="title">Website Lainya</div>
+            PKK Gresik
+          </div>
+          <div class="col-md-3 col-10 my-2" id="counter">
+            <div class="counter">
+              <div class="c-title mb-3">Visitor Counter</div>
+              <div class="content">
+                <div class="dec">9</div>
+                <div class="dec">9</div>
+                <div class="dec">9</div>
+                <div class="dec">7</div>
+                <div class="dec">9</div>
+                <div class="dec">9</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =============|=|Footer|=|============= -->
+
+    <!-- =============|=|F-Bottom|=|============= -->
+    <div class="bottom">
+      <div class="container py-5">
+        <div class="bottom-body">
+          <div class="content">
+            <img src="img/pemkab-gresik.png" alt="" />
+            <div class="text ml-3">
+              Situs Resmi Pemerintah Kabupaten Gresik <br />
+              Copyright © 2018 Dinas Komunikasi dan Informatika <br />
+              Jl. Dr. Wahidin Sudirohusodo No. 60 Telp. 0313975454
+            </div>
+          </div>
+
+          <div class="social">
+            <a href=""> <img src="svg/facebook.svg" alt="" /> </a>
+            <a href=""> <img src="svg/instagram.svg" alt="" /> </a>
+            <a href=""> <img src="svg/twitter.svg" alt="" /> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =============|=|F-Bottom|=|============= -->
+
+    <!-- =============|=|Script|=|============= -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- =============|=|Script|=|============= -->
+  </body>
+</html>

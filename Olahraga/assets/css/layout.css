@@ -1,0 +1,35 @@
+.top-nav .nav-link {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.14px;
+  line-height: 17px; }
+
+.btn-custom {
+  height: 45px;
+  width: 174px;
+  background: none;
+  border-radius: none;
+  outline: none;
+  cursor: pointer; }
+
+.white {
+  border: 2px solid #FFFFFF;
+  color: white; }
+
+.green {
+  border: 2px solid #009FA1;
+  color: #009FA1; }
+
+.light-icon {
+  fill: #FFFFFF; }
+
+.title-custom {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  line-height: 27px;
+  text-align: justify; }
