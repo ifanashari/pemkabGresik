@@ -86,7 +86,7 @@
             margin-left: 1vh;
           }
           &:hover {
-            background-color: lighten(#da1f26, 10%);
+            background-color: #ebecf0;
           }
         }
         .sub-menu {
@@ -95,7 +95,7 @@
           position: absolute;
           padding: 2vh 4vh;
           left: 0;
-          background-color: lighten(#da1f26, 10%);
+          background-color: #f4f5f7;
           z-index: 99;
           li {
             .title {

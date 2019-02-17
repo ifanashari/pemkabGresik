@@ -35,12 +35,12 @@ var navCaunter = 0;
 $(".menu").on("click", () => {
   if ($(window).width() < 768) {
     if (navCaunter < 1) {
-      $("#hide-nav").css({
+      $(".nav-content").css({
         display: "flex"
       });
       navCaunter = 1;
     } else {
-      $("#hide-nav").css({
+      $(".nav-content").css({
         display: "none"
       });
       navCaunter = 0;
@@ -56,7 +56,7 @@ $(window).scroll(() => {
       });
     } else {
       $(".navigation-container").css({
-        top: "5vh"
+        top: "0vh"
       });
     }
   }

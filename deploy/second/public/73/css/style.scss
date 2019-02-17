@@ -67,7 +67,9 @@ html {
   position: relative;
   display: flex;
   align-items: center;
-  background: gray;
+  background: url("../img/background.png");
+  background-size: cover;
+  background-position: center;
   .text {
     color: #ffffff;
     font-size: 22px;
@@ -85,7 +87,7 @@ html {
     flex-direction: column;
     align-items: center;
     .d-text {
-      color: #e3a22f;
+      color: #ffffff;
       font-size: 14px;
       line-height: 16px;
       margin-bottom: 1vh;
@@ -93,7 +95,7 @@ html {
     .icon {
       height: 38px;
       width: 38px;
-      background-color: #e3a22f;
+      background-color: #da1f26;
       position: relative;
       border-radius: 100px;
       img {
@@ -150,7 +152,7 @@ html {
       bottom: 0;
       margin: auto 0;
 
-      color: #2c3e50;
+      color: #ffffff;
       font-size: 22px;
       line-height: 26px;
     }
